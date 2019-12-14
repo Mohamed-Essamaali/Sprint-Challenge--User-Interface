@@ -76,40 +76,48 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    border-bottom: 2px dashed black;
 }
 
 .top-content .text-container {
-    width: 48%;
+    width: 50%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
 
 .middle-content {
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    border-bottom: 2px dashed black;
+   
+    
+    
 }
 
 .middle-content h2 {
     padding: 0 2%;
-    margin-bottom: 0;
+   
 }
 
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    justify-content:center;
+ 
+    
+ 
 }
 
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
     background: black;
-    margin: 20px 2.5%;
+    margin: 20px 3%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+  
 }
 
 .bottom-content {
@@ -144,3 +152,89 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: 0 25%;
+}
+header nav {
+   width: 100%;
+   height: 10%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+header img {
+    padding: 3% 0;
+}
+header nav a {
+    text-decoration: none;
+    display:flex;
+    width: 10%;
+    padding: 4% 1% 1% 1%;;
+    margin: 1% 2%;
+    color: black;
+    align-self: center;
+   
+   
+}
+
+.top-content img {
+    margin: 4% 0
+
+}
+
+.text-container { 
+   width: 35%; 
+}
+/*---  Styling about.html -------------*/
+.about-info {
+    width: 100%;
+    margin-bottom: 3%;
+    padding-bottom: 3%;
+    border-bottom: 1px dashed black;
+}
+.about-middle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+section {
+    width: 50%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 3%;
+}
+
+.about-middle img {
+    margin-bottom: 5%;
+}
+
+.about-middle div {
+  
+    margin: 2%;
+    padding-bottom: 5%;
+    height: 35%;
+}
+section p, section p {
+    padding-right: 5%;
+    margin-bottom: 10%;;
+}
+button {
+    width: 37%;
+    height: 28%;
+    background:white;
+    border-radius: 10px;
+    border: 1.5px solid black;
+    font-size: 16px;
+}
+footer {
+    margin-top: 5%;
+    font-size: 1.5em;
+}
+
+
+
+
+
