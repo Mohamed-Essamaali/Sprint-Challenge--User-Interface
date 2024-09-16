@@ -69,6 +69,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+   
 }
 
 .top-content {
@@ -143,4 +144,73 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/*--- Index.html syling started here ----*/
+
+
+.index-header {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+    padding: 1% 0;
+}
+.index-header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.index-header nav a {
+    text-decoration: none;
+    display: inline-block;
+    width: 10%;
+    padding-top: 2%;
+    color: black;
+  
+    
+  }
+  .index-header  nav img {
+    display: flex;
+    align-self: center;
+}
+.index-header img {
+    margin: 2% 0;
+    
+}
+
+/*--- Styling about.html ------ */
+
+.about-header {
+    width: 90%;
+}
+.top-content {
+    padding-bottom: 20px;
+}
+.about-main-section {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.sub-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 47%;
+    margin: 1.5%;
+    border-bottom: 1px dashed black;
+}
+.sub-section div {
+    padding: 5% 0 10% 0;
+}
+.about-last-section {
+    padding: 2% 2% 5% 2%;
+}
+.sub-section div button {
+    padding: 2% 10%;
+    border-radius: 10px;
+    border: 1.5px solid black;
+    height: 28%;
+    margin-top: 20px;
 }
